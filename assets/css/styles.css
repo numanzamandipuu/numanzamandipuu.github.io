@@ -1,5 +1,9 @@
 /*==================== GOOGLE FONTS ====================*/
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+@font-face {
+  font-family: 'Amsterdam';
+  src: url('../Amsterdam-Four.ttf') format('truetype');
+}
 
 /*==================== VARIABLES CSS ====================*/
 :root {
@@ -216,7 +220,7 @@ img {
 .nav__logo,
 .nav__toggle {
   color: var(--title-color);
-  font-weight: var(--font-medium);
+  font-weight: var(--font-semi-bold);
 }
 
 .nav__logo:hover {
@@ -230,6 +234,11 @@ img {
 
 .nav__toggle:hover {
   color: var(--first-color);
+}
+
+.sign {
+  font-family: 'Amsterdam';
+  /* font-weight: 800; */
 }
 
 @media screen and (max-width: 767px) {
