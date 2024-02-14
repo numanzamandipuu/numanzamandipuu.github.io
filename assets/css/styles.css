@@ -178,7 +178,7 @@ img {
 
 .section__subtitle {
   display: block;
-  font-size: var(--small-font-size);
+  font-size: var(--normal-font-size);
   margin-bottom: var(--mb-3);
 }
 
@@ -348,6 +348,7 @@ img {
 }
 
 .home__title {
+  font-size: var(--big-font-size);
   color: transparent;
   background: linear-gradient(to right, #f32170, #ff6b08, #cf23cf, #eedd44);
   -webkit-background-clip: text;
@@ -400,7 +401,7 @@ img {
   display: inline-block;
   background-color: var(--first-color);
   color: #FFF;
-  padding: 1rem;
+  padding: 0.75rem 1rem 0.75rem;
   border-radius: .5rem;
   font-weight: var(--font-medium);
 }
@@ -427,6 +428,7 @@ img {
 .button--flex {
   display: inline-flex;
   align-items: center;
+  border-radius: 16px;
 }
 
 .button--small {
@@ -466,7 +468,7 @@ img {
 }
 
 .about__info-title {
-  font-size: var(--h2-font-size);
+  font-size: var(--h1-font-size);
   font-weight: var(--font-semi-bold);
   color: var(--title-color);
 }
@@ -511,10 +513,6 @@ img {
   margin-right: var(--mb-0-75);
 }
 
-.skills__title {
-  font-size: var(--h3-font-size);
-}
-
 .skills__subtitle {
   font-size: var(--small-font-size);
   color: var(--text-color-light);
@@ -533,7 +531,8 @@ img {
 .skills__titles {
   display: flex;
   justify-content: space-between;
-  margin-bottom: var(--mb-0-5);
+  margin-bottom: var(--mb-0-25);
+  margin-top: var(--mb-0-5);
 }
 
 .skills__name {
@@ -603,7 +602,7 @@ img {
 }
 
 .qualification__button {
-  font-size: var(--h3-font-size);
+  font-size: var(--h1-font-size);
   font-weight: var(--font-medium);
   cursor: pointer;
 }
@@ -624,13 +623,13 @@ img {
 }
 
 .qualification__title {
-  font-size: var(--h3-font-size);
+  font-size: var(--h2-font-size);
   font-weight: var(--font-medium);
 }
 
 .qualification__subtitle {
   display: inline-block;
-  font-size: var(--small-font-size);
+  font-size: var(--normal-font-size);
   margin-bottom: var(--mb-1);
 }
 
@@ -1115,7 +1114,7 @@ img {
 
   .qualification__sections {
     display: grid;
-    grid-template-columns: .6fr;
+    grid-template-columns: .9fr;
     justify-content: center;
   }
 }
@@ -1223,7 +1222,7 @@ img {
   }
 
   .qualification__sections {
-    grid-template-columns: .5fr;
+    grid-template-columns: .9fr;
   }
 
   .services__container {
