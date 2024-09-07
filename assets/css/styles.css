@@ -564,15 +564,19 @@ img {
 }
 
 .skills__c {
-  width: 60%;
+  width: 70%;
 }
 
 .skills__d {
-  width: 85%;
+  width: 60%;
 }
 
 .skills__e {
-  width: 80%;
+  width: 50%;
+}
+
+.skills__f {
+  width: 40%;
 }
 
 .skills__close .skills__list {
@@ -652,6 +656,12 @@ img {
   height: 100%;
   background-color: var(--first-color);
   transform: translate(6px, -7px);
+}
+
+.qualification__link {
+  color: var(--first-color);
+  font-size: var(--normal-font-size);
+  margin-bottom: var(--mb-1);
 }
 
 .qualification [data-content] {
